@@ -26,7 +26,7 @@
 ~~ Model Performance Evulation:
 - Confusion matrix, precision, accuracy, recall, f1 score and ROC were calculated, and interpreted.
 
-#Interpreted Model Performances:
+# Interpreted Model Performances:
 ~~ Performance of First Model (include all variables):
 - Lag1, Lag2, Lag3, Lag4, Lag5 and Volume were used.
 - However, in the financial sector, price changes over the past days are not very significant.
