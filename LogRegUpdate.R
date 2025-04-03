@@ -55,7 +55,7 @@ print(paste("Accuracy:", accuracy))  # Print accuracy
 # Create a simpler model using only Lag1 and Lag2
 glm.fits <- glm(Direction ~ Lag1 + Lag2, data = Smarket, 
                 family = binomial, subset = train)  
-
+ 
 # Make predictions using the new model on the test dataset
 glm.probs <- predict(glm.fits, Smarket.2005, type = "response")  
 
