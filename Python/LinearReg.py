@@ -9,7 +9,7 @@ import statsmodels.api as sm
 from scipy import stats
 from statsmodels.formula.api import ols
 
-file_path = '/Users/sim/Desktop/Boston.csv'
+file_path = '~/Desktop/Boston.csv'
 df = pd.read_csv(file_path)
 
 #checking data
